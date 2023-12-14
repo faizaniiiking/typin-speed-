@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.mainDiv{
+    width: 100% ;
+    height: 100vh;
+    position: relative;
+    background: white;
+}
+
+.centerDiv{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: black;
+    text-shadow: 1px 2px 3px white;
+    font-size: 2rem;
+
+}
+
+p{
+    font-family: 'Dhurjati', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: black;
+    text-shadow: 1px 2px 3px white;
+    font-size: 2rem;
+
+
+}
+
+textarea{
+    height:400px ;
+    background-color: black;
+    box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    border-radius: 10px,10px, 0,0;
+    border: 20px solid #966F33;
+    color: white;
+    text-decoration: none;
+}
+
+.mainBtn{
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 5px solid black;
+    font-size: 1.5rem;
+    font-family: 'Dhurjati', sans-serif;
+
+}
